@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Abstractions
 {
@@ -9,4 +9,3 @@ namespace Abstractions
         Sprite Icon { get; }
     }
 }
-

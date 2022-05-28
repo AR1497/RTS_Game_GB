@@ -1,14 +1,14 @@
+﻿using System;
 using Abstractions;
-using System;
 using UnityEngine;
 
 namespace UserControlSystem
 {
     [CreateAssetMenu(fileName = nameof(SelectableValue), menuName = "Strategy Game/" + nameof(SelectableValue), order = 0)]
-    public class SelectableValue : MonoBehaviour
+    public class SelectableValue : ScriptableObject
     {
         public ISelectable CurrentValue { get; private set; }
-        public event Action<ISelectable> OnSelected;
+        public Action<ISelectable> OnSelected;
 
         public void SetValue(ISelectable value)
         {
