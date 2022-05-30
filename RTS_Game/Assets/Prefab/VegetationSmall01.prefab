@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 6441231208386810539}
   - component: {fileID: 6441231209776659890}
   - component: {fileID: 3037471588464442321}
-  - component: {fileID: 6632963001304239463}
+  - component: {fileID: 706140787}
   m_Layer: 0
   m_Name: VegetationSmall01
   m_TagString: Untagged
@@ -203,7 +203,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6441231208406260267}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.56, y: 0, z: -11.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -295,7 +295,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6632963001304239463
+--- !u!114 &706140787
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHealth: 100
-  _icon: {fileID: 0}
+  _icon: {fileID: 21300000, guid: 83b40eddb8960214bb5f642eaa526df2, type: 3}
   _selected: {fileID: 3928039564994946172}
 --- !u!1 &6441231208406260269
 GameObject:
