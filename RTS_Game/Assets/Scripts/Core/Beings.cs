@@ -1,6 +1,7 @@
 using UnityEngine;
+using Abstractions;
 
-public class Beings : MonoBehaviour
+public class Beings : MonoBehaviour, ISelectable
 {
     [SerializeField]
     private float _maxHealth = 50;
