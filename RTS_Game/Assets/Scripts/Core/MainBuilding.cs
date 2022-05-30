@@ -1,5 +1,5 @@
-using Abstractions;
 using UnityEngine;
+using Abstractions;
 
 namespace Core
 {
@@ -15,14 +15,25 @@ namespace Core
         [SerializeField] private float _maxHealth = 1000;
         [SerializeField] private Sprite _icon;
 
+        [SerializeField] private GameObject _selected;
+
         private float _health = 1000;
 
         public void ProduceUnit()
         {
             Instantiate(_unitPrefab,
                 new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10)),
-                Quaternion.identity,
-                _unitsParent);
+                Quaternion.identity, _unitsParent);
+        }
+
+        public void UnsetSelected()
+        {
+            _selected.SetActive(false);
+        }
+
+        public void SetSelected()
+        {
+            _selected.SetActive(true);
         }
     }
 }
