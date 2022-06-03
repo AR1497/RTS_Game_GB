@@ -131,11 +131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e01563d37a23f4e9bae517fb3e14dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _unitPrefab: {fileID: 0}
   _unitsParent: {fileID: 0}
   _maxHealth: 1000
   _icon: {fileID: 21300000, guid: 88f4815732346fc41bb5882b7283c14b, type: 3}
-  _selected: {fileID: 0}
+  _selected: {fileID: 4111526418731472702}
 --- !u!1 &391914846020141114
 GameObject:
   m_ObjectHideFlags: 0

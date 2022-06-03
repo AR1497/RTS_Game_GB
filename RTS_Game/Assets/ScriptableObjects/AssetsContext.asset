@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a9c83e9bf56ad44a3ad397a10bffef, type: 3}
   m_Name: AssetsContext
   m_EditorClassIdentifier: 
-  _objects: []
+  _objects:
+  - {fileID: 2009774473787257762, guid: bdc1fd86fe76e0b4c8c6f927252b94ef, type: 3}
